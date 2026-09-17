@@ -1,0 +1,138 @@
+{
+    "config": {
+        "port": 3000,
+        "os": "win32",
+        "editor": {
+            "mode": "extension",
+            "agent": "vscode",
+            "version": "5.0.405"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "http://localhost:3000",
+        "contact": "https://github.com/learnpack/learnpack/issues/new",
+        "language": "auto",
+        "autoPlay": true,
+        "projectType": "template",
+        "grading": "isolated",
+        "exercisesPath": "./",
+        "webpackTemplate": null,
+        "disableGrading": false,
+        "disabledActions": [],
+        "actions": [],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "suggestions": {
+            "agent": null
+        },
+        "warnings": {},
+        "title": {
+            "en": "Machine Learning Python Template",
+            "es": "Plantilla para Aprendizaje de Máquina con Python"
+        },
+        "description": {
+            "us": "A standardized, but flexible project structure for doing and sharing data science and machine learning work.",
+            "es": "Una estructura de proyecto estandarizada, pero flexible, para realizar y compartir trabajos de ciencia de datos y aprendizaje de máquina."
+        },
+        "repository": "https://github.com/4GeeksAcademy/machine-learning-python-template",
+        "preview": "https://github.com/4GeeksAcademy/machine-learning-python-template/blob/main/preview.jpg?raw=true",
+        "difficulty": "beginner",
+        "technologies": [
+            "Python",
+            "Machine-Learning",
+            "Datascience",
+            "ai-engineering"
+        ],
+        "translations": []
+    },
+    "address": "http://localhost:3000",
+    "currentExercise": null,
+    "exercises": [
+        {
+            "position": 0,
+            "path": "data",
+            "slug": "data",
+            "translations": {},
+            "language": null,
+            "entry": null,
+            "title": "data",
+            "graded": false,
+            "files": [
+                {
+                    "path": "data/interim",
+                    "name": "interim",
+                    "hidden": true
+                },
+                {
+                    "path": "data/processed",
+                    "name": "processed",
+                    "hidden": true
+                },
+                {
+                    "path": "data/raw",
+                    "name": "raw",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": "models",
+            "slug": "models",
+            "translations": {},
+            "language": null,
+            "entry": null,
+            "title": "models",
+            "graded": false,
+            "files": [
+                {
+                    "path": "models/.gitkeep",
+                    "name": ".gitkeep",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 2,
+            "path": "src",
+            "slug": "src",
+            "translations": {},
+            "language": "python3",
+            "entry": "src/app.py",
+            "title": "src",
+            "graded": false,
+            "files": [
+                {
+                    "path": "src/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "src/explore.ipynb",
+                    "name": "explore.ipynb",
+                    "hidden": true
+                },
+                {
+                    "path": "src/utils.py",
+                    "name": "utils.py",
+                    "hidden": false
+                }
+            ],
+            "done": false
+        }
+    ],
+    "bugsLink": null,
+    "videoSolutions": false,
+    "localhostOnly": false,
+    "session": 4751421903936070000
+}
